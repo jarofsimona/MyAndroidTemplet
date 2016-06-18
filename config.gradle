@@ -1,0 +1,20 @@
+ext{
+    android = [
+            compileSdkVersion : 23,
+            buildToolsVersion : "23.0.1",
+            applicationId : "newgame.com.mytest",
+            minSdkVersion : 14,
+            targetSdkVersion : 23,
+            versionCode : 1,
+            versionName : "1.0"
+    ]
+
+    dependencies = [
+            testDepende : 'junit:junit:4.12',
+            support_v7 : 'com.android.support:appcompat-v7:23.1.0',
+            design : 'com.android.support:design:23.1.0',
+            okhttp : 'com.squareup.okhttp3:okhttp:3.3.1',
+            picasso : 'com.squareup.picasso:picasso:2.5.2',
+            gson : 'com.google.code.gson:gson:2.7'
+    ]
+}
